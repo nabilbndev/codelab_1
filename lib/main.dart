@@ -52,7 +52,7 @@ class MyHomePage extends StatelessWidget {
                 onPressed: () {
                   appState.getNext();
                 },
-                child: Text('Next'))
+                child: Text('Press'))
           ],
         ),
       ),
@@ -78,7 +78,7 @@ class BigCard extends StatelessWidget {
       elevation: 5,
       color: theme.colorScheme.secondary,
       child: Padding(
-        padding: const EdgeInsets.all(20.0),
+        padding: const EdgeInsets.all(18.0),
         child: Text(
           pair.asLowerCase,
           semanticsLabel: pair.asPascalCase,
